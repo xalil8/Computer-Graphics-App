@@ -183,7 +183,7 @@ class MainWindow(QtWidgets.QMainWindow):
         QtWidgets.QMainWindow.__init__(self) # call the init for the parent class
 
         self.resize(600, 600)
-        self.setWindowTitle("Ahmet's Cube")
+        self.setWindowTitle("Halil's Cube")
 
         self.glWidget = GLWidget(self)
         self.initGUI()
