@@ -536,11 +536,9 @@ class MainWindow(QtWidgets.QMainWindow):
 
 if __name__ == '__main__':
 
-    try:
-        app = QtWidgets.QApplication(sys.argv)
+   
+    app = QtWidgets.QApplication(sys.argv)
 
-        win = MainWindow()
-        win.show()
-        sys.exit(app.exec_())
-    except:
-        sys.exit(app.exec_())
+    win = MainWindow()
+    win.show()
+    sys.exit(app.exec_())
